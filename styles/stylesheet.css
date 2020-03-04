@@ -1,0 +1,118 @@
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	margin: 25px;
+}
+.topnav {
+	display: flex;
+	flex: 100%;
+	justify-content: space-around;
+	background-color: #d1bea8;
+}
+.topnav a{
+	background-color: #d1bea8;
+	color: #ffffff;
+	padding: 15px;
+	font-size: 20px;
+	flex-flow: row end;
+
+}
+.main {
+	flex: 70%;
+}
+
+.side {
+	flex: 30%;
+}
+
+.header {
+	background-color: #704241;
+	color: #ffffff;
+	text-align: center;
+	padding: 0.5%;
+}
+
+h1{
+	font-size: 34px;
+	font-family: 'dancing script';
+}
+
+h2 {
+	color: #3d0c02;
+	font-family: 'dancing script';
+	font-size: 29px;
+}
+.footer {
+	background-color: #704142;
+	color: #ffffff;
+	text-align: center;
+	padding: 2%;
+}
+
+p {
+	font-family: 'Assistant';
+}
+.imgrow {
+	display: flex;
+	padding: 0 4px;
+	fkex-wrap: wrap;
+}
+.imgcolumn {
+	flex: 25%;
+	padding: 0 4px;
+	max-width: 25%
+}
+.imgcolumn img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+@media screen and (max-width: 800px) {
+	 .imgcolumn {
+		 flex: 50%;
+		max-width: 50%;
+	 }
+}
+@media screen and (max-width: 600px) {
+	.imgcolumn {
+		flex: 100%;
+		max-width: 100%;
+		}
+}
+.container {
+	display: flex;
+	flex: 100%;
+	flex-direction: row;
+	padding: 0px;
+	background-color: #ffffff;
+}
+
+.postsroll {
+	padding: 5px;
+	display: flex;
+	flex: 65%;
+	flex-wrap: wrap;
+}
+.about {
+	diplay: flex;
+	flex: 35%;
+	margin: 5px;
+
+}
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	margin: 5px;
+}
+.posttext {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.posts img{
+	width: 30%;
+	height: auto;
+
+}
